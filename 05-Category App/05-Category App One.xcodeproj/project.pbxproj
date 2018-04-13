@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2915B4B420806C3C007ECE5A /* NSString+TitleCaser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2915B4B320806C3C007ECE5A /* NSString+TitleCaser.m */; };
+		2989D8D520811C6800C196F3 /* NSArray+Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2989D8D420811C6800C196F3 /* NSArray+Counter.m */; };
 		29D85C082036432C0001C079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85C072036432C0001C079 /* main.m */; };
 		29D85C102036434A0001C079 /* NSString+Reverser.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85C0F2036434A0001C079 /* NSString+Reverser.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2915B4B220806C3C007ECE5A /* NSString+TitleCaser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TitleCaser.h"; sourceTree = "<group>"; };
+		2915B4B320806C3C007ECE5A /* NSString+TitleCaser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TitleCaser.m"; sourceTree = "<group>"; };
+		2989D8D320811C6800C196F3 /* NSArray+Counter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Counter.h"; sourceTree = "<group>"; };
+		2989D8D420811C6800C196F3 /* NSArray+Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Counter.m"; sourceTree = "<group>"; };
 		29D85C042036432C0001C079 /* Category App One */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Category App One"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D85C072036432C0001C079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29D85C0E2036434A0001C079 /* NSString+Reverser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Reverser.h"; sourceTree = "<group>"; };
@@ -61,8 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				29D85C072036432C0001C079 /* main.m */,
+				2915B4B220806C3C007ECE5A /* NSString+TitleCaser.h */,
+				2915B4B320806C3C007ECE5A /* NSString+TitleCaser.m */,
 				29D85C0E2036434A0001C079 /* NSString+Reverser.h */,
 				29D85C0F2036434A0001C079 /* NSString+Reverser.m */,
+				2989D8D320811C6800C196F3 /* NSArray+Counter.h */,
+				2989D8D420811C6800C196F3 /* NSArray+Counter.m */,
 			);
 			path = "Category App One";
 			sourceTree = "<group>";
@@ -102,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29D85BFF2036432C0001C079 /* Build configuration list for PBXProject "Category App One" */;
+			buildConfigurationList = 29D85BFF2036432C0001C079 /* Build configuration list for PBXProject "05-Category App One" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D85C082036432C0001C079 /* main.m in Sources */,
+				2915B4B420806C3C007ECE5A /* NSString+TitleCaser.m in Sources */,
 				29D85C102036434A0001C079 /* NSString+Reverser.m in Sources */,
+				2989D8D520811C6800C196F3 /* NSArray+Counter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +268,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D85BFF2036432C0001C079 /* Build configuration list for PBXProject "Category App One" */ = {
+		29D85BFF2036432C0001C079 /* Build configuration list for PBXProject "05-Category App One" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29D85C092036432C0001C079 /* Debug */,

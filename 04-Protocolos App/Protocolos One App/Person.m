@@ -1,6 +1,15 @@
 #import "Person.h"
 
+
+
 @implementation Person
+
+// private method
+-(void)somethingElse
+{
+    
+}
+
 
 - (void)run
 {

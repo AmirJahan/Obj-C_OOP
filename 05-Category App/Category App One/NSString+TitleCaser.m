@@ -1,13 +1,21 @@
-//
-//  NSString+TitleCaser.m
-//  Category App One
-//
-//  Created by Amir J on 4/12/18.
-//  Copyright © 2018 Cinard Digital Media Institute. All rights reserved.
-//
+
 
 #import "NSString+TitleCaser.h"
 
-@implementation NSString_TitleCaser
+@implementation NSString (TitleCaser)
+
+-(NSString *)titleCaseIt
+{
+    NSLog(@"Here we'll titlecase it %@", self);
+
+    NSRange secondToEnd = NSMakeRange(1, self.length-1);
+    
+    NSString* firstChar = [self substringWithRange:NSMakeRange(0, 1)];
+    NSString* otherStrings = [self substringWithRange:secondToEnd];
+
+    NSString *titleString = [[firstChar uppercaseString] stringByAppendingString:otherStrings];
+    
+    return titleString;
+}
 
 @end

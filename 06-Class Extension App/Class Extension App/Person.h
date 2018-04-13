@@ -2,7 +2,8 @@
 
 @interface Person : NSObject
 
-@property (strong, readonly) NSString *uid;
+// @property (strong, readonly) NSString *uid;
+
 
 - (void)assignUid:(NSString *)inpUid;
 

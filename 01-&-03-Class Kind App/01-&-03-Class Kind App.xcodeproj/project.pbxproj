@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29292E6D2037578400C99F59 /* HouseHold.m in Sources */ = {isa = PBXBuildFile; fileRef = 29292E6C2037578400C99F59 /* HouseHold.m */; };
 		29D85BD120363AD50001C079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BD020363AD50001C079 /* main.m */; };
 		29D85BD920363AF10001C079 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BD820363AF10001C079 /* Person.m */; };
 		29D85BDC20363AF70001C079 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BDB20363AF70001C079 /* Animal.m */; };
@@ -25,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29292E6B2037578400C99F59 /* HouseHold.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HouseHold.h; sourceTree = "<group>"; };
+		29292E6C2037578400C99F59 /* HouseHold.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseHold.m; sourceTree = "<group>"; };
+		2989D88E20810C2900C196F3 /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		29D85BCD20363AD50001C079 /* Class Kind App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Class Kind App"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D85BD020363AD50001C079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29D85BD720363AF10001C079 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -64,6 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				29D85BD020363AD50001C079 /* main.m */,
+				2989D88E20810C2900C196F3 /* File */,
+				29292E6B2037578400C99F59 /* HouseHold.h */,
+				29292E6C2037578400C99F59 /* HouseHold.m */,
 				29D85BD720363AF10001C079 /* Person.h */,
 				29D85BD820363AF10001C079 /* Person.m */,
 				29D85BDA20363AF70001C079 /* Animal.h */,
@@ -107,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29D85BC820363AD50001C079 /* Build configuration list for PBXProject "Class Kind App" */;
+			buildConfigurationList = 29D85BC820363AD50001C079 /* Build configuration list for PBXProject "01-&-03-Class Kind App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D85BDC20363AF70001C079 /* Animal.m in Sources */,
+				29292E6D2037578400C99F59 /* HouseHold.m in Sources */,
 				29D85BD920363AF10001C079 /* Person.m in Sources */,
 				29D85BD120363AD50001C079 /* main.m in Sources */,
 			);
@@ -262,7 +270,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D85BC820363AD50001C079 /* Build configuration list for PBXProject "Class Kind App" */ = {
+		29D85BC820363AD50001C079 /* Build configuration list for PBXProject "01-&-03-Class Kind App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29D85BD220363AD50001C079 /* Debug */,

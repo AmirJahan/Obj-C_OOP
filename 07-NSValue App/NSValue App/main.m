@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <CoreGraphics/CoreGraphics.h>
 
 
 int main(int argc, const char * argv[])
@@ -9,11 +8,16 @@ int main(int argc, const char * argv[])
         NSRange myRange = {4, 10};
         
         NSMutableArray* myArr = [NSMutableArray new];
+        
+        
         NSValue *theValue = [NSValue valueWithBytes:&myRange objCType:@encode(NSRange)];
         
         
-        [myArr addObject: myRange];
         [myArr addObject: theValue];
+        
+        // NSValue can encompass
+        // int, float, primitives, strcuts, range, cgpoint
+        // we use for collections (array, dictionary, set)
     }
     return 0;
 }

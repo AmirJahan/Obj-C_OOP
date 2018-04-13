@@ -2,7 +2,7 @@
 
 @interface Animal : NSObject
 
-@property NSString* type;
+@property NSString* typeOfAnimal;
 
 - (void)sleep;
 - (void)eat;

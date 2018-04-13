@@ -1,0 +1,109 @@
+{
+    format: png
+    width: 640px
+    hieght: 480px
+    name: my pretty kitten
+    uid: afglakuegfo87querkl
+    numberofLikes: 44
+    sharedBy: [john, adam, ana, eve]
+    comments:
+    [
+        {
+        nameofcommenter:
+        idofcommenter:
+        commentbody:
+        dateofcomment:
+        commentrevisions: []
+        }
+
+    ]
+}
+
+{
+format: png
+width: 640px
+hieght: 480px
+name: my pretty kitten
+uid: afglakuegfo87querkl
+numberofLikes: 44
+sharedBy: [john, adam, ana, eve]
+comments:
+[
+{
+nameofcommenter:
+idofcommenter:
+commentbody:
+dateofcomment:
+commentrevisions: []
+}
+
+]
+}
+
+
+{
+format: png
+width: 640px
+hieght: 480px
+name: my pretty kitten
+uid: afglakuegfo87querkl
+numberofLikes: 44
+sharedBy: [john, adam, ana, eve]
+comments:
+[
+{
+nameofcommenter:
+idofcommenter:
+commentbody:
+dateofcomment:
+commentrevisions: []
+}
+
+]
+}
+
+
+{
+format: png
+width: 640px
+hieght: 480px
+name: my pretty kitten
+uid: afglakuegfo87querkl
+numberofLikes: 44
+sharedBy: [john, adam, ana, eve]
+comments:
+[
+{
+nameofcommenter:
+idofcommenter:
+commentbody:
+dateofcomment:
+commentrevisions: []
+}
+
+]
+}
+
+
+
+{
+format: png
+width: 640px
+hieght: 480px
+name: my pretty kitten
+uid: afglakuegfo87querkl
+numberofLikes: 44
+sharedBy: [john, adam, ana, eve]
+comments:
+[
+{
+nameofcommenter:
+idofcommenter:
+commentbody:
+dateofcomment:
+commentrevisions: []
+}
+
+]
+}
+

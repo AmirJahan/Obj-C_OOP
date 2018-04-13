@@ -1,6 +1,9 @@
 #import "Person.h"
 
-@interface Person ()
+
+// this is the internal 
+// pricvate extension to the "Person"
+@interface Person () // annonymous categor
 - (NSString *)somethingPrivate;
 
 @end

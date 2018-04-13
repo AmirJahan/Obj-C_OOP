@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww21600\viewh17400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs50 \cf0 One of the primary goals of object-oriented programming is to write reusable code, which means that classes should be reusable in a variety of situations, wherever possible. 
+\b \
+\
+\
+01-isKindOfClass:\
+
+\b0 Helps determine whether an object is made by a certain class or not. \
+
+\b \
+\
+02/03-Selectors:
+\b0 \
+A selector identifies a method to execute for an object. \
+What makes a selector useful is that it acts like a dynamic function pointer that, for a given name, automatically points to the implementation of a method appropriate for whichever class it\'92s used with.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+
+\b 04-Protocolos:\
+
+\b0 Conforming to a protocol means a class\'92s objects will know how to deal with a certain situation. This is particularly useful when you want to fetch data from different object and display them in the same place. Such as in a table view or map view.\
+A protocol declares a programmatic interface that any class may choose to implement. Protocols make it possible for two classes distantly related by inheritance to communicate with each other to accomplish a certain goal.\
+\
+\
+\
+
+\b 05-Category:
+\b0 \
+You use categories to define additional methods of an existing class -even one whose source code is unavailable to you- without subclassing. It essentially extends an existing class to do more.\
+\
+\
+
+\b 06-Class Extensions:
+\b0 \
+A class extension bears some similarity to a category, but it can only be added to a class for which you have the source code at compile time. Class extensions are also called anonymous categories\
+One can think of class extensions as private interface to a class.\
+\
+\
+
+\b Category VS Class Extensions:
+\b0 \
+An extension is best for private methods which you would like to declare in your .m file. Categories are more useful when you want to group your methods into different sections -categories- or when you want to add code to existing classes that you didn't create\
+\
+\
+
+\b NSValue:
+\b0 \
+An NSValue object can hold any of the scalar types such as int, float, and char, as well as pointers, structures, and object id references. Use this class to work with such data types in collections\
+\
+
+\b NSNumber:\
+
+\b0 Can be nil.\
+The purpose of NSNumber is simply to box primitive types in objects (pointer types), so you can use them in situations that require pointer-type values to work.  One common example: you have to use NSNumber if you want to persist numeric values in Core Data entities.\
+\
+\
+\
+\
+\
+
+\b Keywords of the day:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\b0 \cf0 Category, Extension, Selectors, Conditionals, NSNUmber, Protocols, Delegates, OOP, Logic, Syntax, Type Casting, Is Type Of, Class Kind, Declaration, Definitions, Interface, Implementation, Cast Forcing, ID, Conformance, Enumeration styles, Iteration styles, ReverseIt, Object at Index instead of Square Brackets, Method call returns its value, Verbose and descriptive, Readability, A bit of UIKit. }

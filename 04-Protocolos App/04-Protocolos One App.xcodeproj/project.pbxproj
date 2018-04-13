@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2915B4AE20806AEE007ECE5A /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 2915B4AD20806AEE007ECE5A /* Work.m */; };
+		2915B4B120806B35007ECE5A /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2915B4B020806B35007ECE5A /* Worker.m */; };
+		29292E7020375A3500C99F59 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 29292E6F20375A3500C99F59 /* Animal.m */; };
 		29D85BF02036411A0001C079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BEF2036411A0001C079 /* main.m */; };
 		29D85BF7203641350001C079 /* MyProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BF6203641350001C079 /* MyProtocol.m */; };
 		29D85BFA2036419F0001C079 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85BF92036419F0001C079 /* Person.m */; };
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2915B4AC20806AEE007ECE5A /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		2915B4AD20806AEE007ECE5A /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		2915B4AF20806B35007ECE5A /* Worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		2915B4B020806B35007ECE5A /* Worker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		29292E6E20375A3500C99F59 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		29292E6F20375A3500C99F59 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		29D85BEC2036411A0001C079 /* Protocolos One App */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Protocolos One App"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D85BEF2036411A0001C079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29D85BF6203641350001C079 /* MyProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyProtocol.m; sourceTree = "<group>"; };
@@ -63,8 +72,14 @@
 			isa = PBXGroup;
 			children = (
 				29D85BEF2036411A0001C079 /* main.m */,
+				2915B4AC20806AEE007ECE5A /* Work.h */,
+				2915B4AD20806AEE007ECE5A /* Work.m */,
+				2915B4AF20806B35007ECE5A /* Worker.h */,
+				2915B4B020806B35007ECE5A /* Worker.m */,
 				29D85BF82036419F0001C079 /* Person.h */,
 				29D85BF92036419F0001C079 /* Person.m */,
+				29292E6E20375A3500C99F59 /* Animal.h */,
+				29292E6F20375A3500C99F59 /* Animal.m */,
 				29D85BF6203641350001C079 /* MyProtocol.m */,
 			);
 			path = "Protocolos One App";
@@ -105,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29D85BE72036411A0001C079 /* Build configuration list for PBXProject "Protocolos One App" */;
+			buildConfigurationList = 29D85BE72036411A0001C079 /* Build configuration list for PBXProject "04-Protocolos One App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2915B4AE20806AEE007ECE5A /* Work.m in Sources */,
+				2915B4B120806B35007ECE5A /* Worker.m in Sources */,
 				29D85BFA2036419F0001C079 /* Person.m in Sources */,
+				29292E7020375A3500C99F59 /* Animal.m in Sources */,
 				29D85BF02036411A0001C079 /* main.m in Sources */,
 				29D85BF7203641350001C079 /* MyProtocol.m in Sources */,
 			);
@@ -260,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29D85BE72036411A0001C079 /* Build configuration list for PBXProject "Protocolos One App" */ = {
+		29D85BE72036411A0001C079 /* Build configuration list for PBXProject "04-Protocolos One App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29D85BF12036411A0001C079 /* Debug */,

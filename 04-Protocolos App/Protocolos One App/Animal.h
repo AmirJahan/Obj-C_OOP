@@ -1,13 +1,16 @@
-//
-//  Animal.h
-//  Protocolos One App
-//
-//  Created by Amir on 2/16/18.
-//  Copyright © 2018 Cinard Digital Media Institute. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
-@interface Animal : NSObject
+
+#import "MyProtocol.m"
+
+
+@interface Animal : NSObject <BeingPersonDelegate>
+
+
+// in here, thos method are exposed
+// a method in here
+// it's exposed, Public
+
+
 
 @end

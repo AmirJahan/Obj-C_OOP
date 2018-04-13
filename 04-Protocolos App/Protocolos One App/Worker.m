@@ -10,4 +10,12 @@
 
 @implementation Worker
 
+-(void)doingStuff
+{
+    Work* someTasks = [Work new];
+    
+    someTasks.delegate = self;
+    // this
+}
+
 @end

@@ -5,7 +5,6 @@ int main(int argc, const char * argv[])
     @autoreleasepool
     {
         
-        
         NSNumber *myNumber = nil;
         
         myNumber = [NSNumber numberWithFloat: 23.56];

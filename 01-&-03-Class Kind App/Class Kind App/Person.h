@@ -6,4 +6,6 @@
 
 - (void)eat;
 
+-(int)heightIs;
+
 @end

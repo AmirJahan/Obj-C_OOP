@@ -10,4 +10,6 @@
 
 @interface HouseHold : NSObject
 
+-(void)placed;
+
 @end
