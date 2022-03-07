@@ -1,4 +1,4 @@
-This morning we talked a little further about OOP. Here are some of the prminent topics from this morning:
+This lesson covers OOP. Here are some of the prminent topics:
 
 
     01-isKindOfClass:
